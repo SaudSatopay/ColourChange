@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+#colorInputGroup,
+#imageInputGroup {
+    display: none;
+}
+
+.allText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#applyBtn {
+    width: 100%;
+    background-image: linear-gradient(to right, #4CAF50, #00f700);
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: SaudFont;
+    letter-spacing: 1.5px;
+}
+
+#applyBtn {
+    background-image: linear-gradient(to right, #00f700, #4CAF50);
+}

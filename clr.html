@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="clr.js"></script>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="clr.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="allText" style="text-align: center;">
+        <!-- Choose color or image -->
+        <input type="radio" id="radioColor" name="Background" value="color">
+        <label for="radioColor">Use Color</label><br>
+        <input type="radio" id="radioImage" name="Background" value="image">
+        <label for="radioImage">Use Image</label><br><br>
+
+        <!-- Color input group -->
+        <div id="colorInputGroup">
+            <label for="cname">Color name or hex:</label><br>
+            <input type="text" id="cname" placeholder="e.g. red or #ff0000"><br>
+            <input type="color" id="colorPicker" style="margin-top:5px;"><br><br>
+        </div>
+
+        <!-- Image input group -->
+        <div id="imageInputGroup">
+            <label for="img">Input Image:</label><br>
+            <input type="file" id="img" accept="image/*"><br><br>
+        </div>
+
+        <button id="applyBtn">Apply</button><br><br>
+        <img id="preview" style="margin-top: 20px; max-width: 300px; display: none;" alt="Preview" />
+        <ul></ul>
+</body>
+
+</html>
